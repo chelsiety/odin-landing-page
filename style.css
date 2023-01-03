@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header{
+  background: #1f2937;
+  color: #F9FAF8;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  
+}
+
+
+.header-logo-text{
+  font-weight:600;
+}
+
+
+ul{
+  /* Remove default margin/padding that ul has */
+  margin: 0;
+  padding: 0;
+
+  /* Remove list bullets from ul */
+  list-style-type: none;
+
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none; /* Remove underline from link */
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+
+
+
+
+.main-title-container{
+  background: #1f2937;
+  padding: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.main-title-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-text{
+  font-weight: 900;
+  font-size: 48px;
+  color:#F9FAF8;
+  max-width: 400px;
+
+}
+
+.secondary-text{
+  color: #E5E7EB;
+  font-size: 18px;
+  max-width: 480px;
+}
+
+.main-title-img{
+  border: none;
+  background-color:hsl(210, 4%, 45%);
+  width: 600px;
+  height: 150px;
+  color: #F9FAF8;
+  padding: 50px 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+
+.info-title{
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
+padding: 30px;
+
+}
+
+.info-img{
+  border:solid;
+  border-color:#3882F6;
+  border-radius: 8px; 
+  border-width: 3px;
+  height: 100px;
+  width: 100px;
+
+}
+
+.info-description-text{
+  color: #1F2937;
+  font-size: 18px;
+
+}
+
+.quote-container{
+  background-color: #E5E7EB;
+
+}
+
+
+.quote-text{
+  font-size: 36px;
+  font-style: italic;
+
+  font-weight: 300;
+  color: #1F2937;
+  padding: 50px 100px;
+
+}
+
+.quote-person{
+  font-size:24px;
+  font-weight: bold;
+}
+
+.sign-up-banner{
+  background-color: #3882F6;
+  height: 70px;
+  width: 1000px;
+  padding: 30px 100px;
+
+}
+
+.sign-up-banner-title{
+  color:#F9FAF8;
+
+}
+
+.description-text-for-sign-up-banner{
+  color: #E5E7EB;
+
+}
+
+button{
+  border: none;
+  border-radius: 8px;           /* Rounds the corners of an element's outer border edge*/
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 8px 16px;
+  height: 35px;
+  width: 130px;
+  font-weight: 700;
+
+}
+
+.sign-up-button-banner{
+  border:solid;
+  border-color:#F9FAF8;
+  border-width: 1px;
+}
+.footer{
+  background: #1f2937;
+  color:#F9FAF8;
+}
